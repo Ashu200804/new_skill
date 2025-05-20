@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 const fileUpload = require('express-fileupload');
 const pdfParse = require('pdf-parse');
-const scrapeJobs = require('./scraper');
 const analyzeResumeWithGemini = require('./gemini');
 
 const app = express();
